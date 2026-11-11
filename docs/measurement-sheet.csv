@@ -1,30 +1,8 @@
 id,item,symbol,unit,value,method,status
-M01,显示器 VESA 孔距,vesa_pattern,mm,,量相邻孔中心距,MEASURE
-M02,显示器上沿到 VESA 中心距离,monitor_top_to_vesa_center,mm,,从屏幕上沿垂直向下量,MEASURE
-M03,显示器上沿最大厚度,monitor_top_thickness,mm,,卡尺量前中后取最大值,MEASURE
-M04,显示器顶部前后深度,monitor_top_depth,mm,,从前面板到后壳,MEASURE
-M05,现有 VESA 臂板厚度,arm_plate_thickness,mm,,卡尺量,MEASURE
-M06,VESA 螺丝孔可用深度,vesa_thread_depth,mm,,用细杆探入后量有效深度,MEASURE
-M07,原装底座稳定夹持最小厚度,base_clamp_min,mm,,用不同厚度样片试夹,MEASURE
-M08,原装底座稳定夹持最大厚度,base_clamp_max,mm,,用不同厚度样片试夹,MEASURE
-M09,原装底座前后接触深度,base_contact_depth,mm,,描侧面轮廓后量,MEASURE
-M10,原装底座宽度,base_width,mm,,卡尺量,MEASURE
-M11,灯条中心到 VESA 竖直中心偏差,bar_center_offset,mm,,挂好后测量,MEASURE
-M12,圆杆外径,pole_diameter,mm,,两个方向测量取平均值,OPTIONAL
-M13,圆杆到显示器背面距离,pole_to_monitor_back,mm,,直尺量,OPTIONAL
-M14,USB-C 接口方向,usb_port_direction,text,,拍照记录,MEASURE
-M15,显示器型号,monitor_model,text,,铭牌或系统信息,MEASURE
-M16,原装底座浅卡口宽度,base_bracket_width,mm,,游标卡尺量卡口外宽,MEASURE
-M17,原装底座浅卡口高度,base_bracket_height,mm,,游标卡尺量槽口有效高度,MEASURE
-M18,原装底座有效滑入深度,base_insert_depth,mm,,从卡口前缘量到后止挡,MEASURE
-M19,原装底座重心到卡口前缘,base_cg_offset,mm,,底座装灯后侧放找平衡点,MEASURE
-M20,底座下方需要避让空间,base_under_clearance,mm,,量卡口下方最低凸起,MEASURE
-M21,顶横条到后压脚最低点,base_clamp_leg_height,mm,,顶横条上表面量到后压脚最低点,MEASURE
-M22,后压脚最大厚度,base_rear_pad_thickness,mm,,量后弧形压脚最厚处,MEASURE
-M23,顶横条前后长度,base_beam_depth,mm,,从前压条量到后压脚铰链,MEASURE
-M24,磁吸供电模块宽度,base_mount_width,mm,,量顶部铰链前端的供电块,MEASURE
-M25,前压条到后压脚总开口,base_clamp_opening,mm,,测量 L 型夹角能够夹住的最大厚度,MEASURE
-M26,后压脚弧长,base_rear_pad_arc_length,mm,,沿曲面从铰链附近量到最低点,MEASURE
-M27,后压脚最低点下垂量,base_rear_pad_drop,mm,,从顶横条底面量到最低点,MEASURE
-M28,灯条中心到前压条距离,base_lamp_offset,mm,,从前压条外侧面量到灯条中心线,MEASURE
-
+L01,挂灯型号,lamp_model,text,,填写完整型号,RECORD
+L02,原装底座左右宽度,base_width,mm,,按实际夹持姿态量左右最外轮廓,REQUIRED
+L03,卡扣前后夹持深度,clamp_depth,mm,,量前卡扣到后压脚可稳定夹住的最大前后厚度,REQUIRED
+L04,有效夹持高度,contact_height,mm,,默认按14mm设计；咬合高度明显小于10mm时填写,OPTIONAL
+L05,底座下方最低点,under_clearance,mm,,只检查旋转俯仰是否碰撞时填写,OPTIONAL
+L06,USB-C接口方向,usb_port_direction,text,,拍照或填写朝向,OPTIONAL
+L07,侧面包边避让,side_clearance_height,mm,,底座侧面有明显凸起或活动结构时填写,OPTIONAL
