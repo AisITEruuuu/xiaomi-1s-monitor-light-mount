@@ -5,3 +5,7 @@
 node_modules/
 output/
 work/
+
+# Keep the primary printable artifacts in the repository.
+!exports/tx02_integrated_mount.stl
+!exports/tx02_fit_test.stl
