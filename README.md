@@ -1,5 +1,7 @@
 # Xiaomi 1S Standalone VESA Light Mount
 
+[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/License-CERN--OHL--S--2.0-blue.svg)](LICENSE)
+
 面向小米米家屏幕挂灯 1S（MJGJD02YL）的独立 VESA 挂灯支架。该设计让原装挂灯底座直接夹住一块模拟显示器上沿的承托片，从而把挂灯安装到独立显示器支架的 VESA 75/100 接口上。
 
 ![Current standalone VESA light mount](assets/current-mount.png)
@@ -138,4 +140,10 @@ make check
 
 ## License
 
-本仓库尚未添加开源许可证。在明确许可证之前，不视为正式开源发布，也不授权再分发或商业使用。
+本项目采用 [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE)（`CERN-OHL-S-2.0`）开源。
+
+你可以在许可证条款下使用、研究、修改、制造和分发本设计及基于本设计制造的产品；分发修改版本时需要继续遵守 CERN-OHL-S-2.0 的 reciprocal 条款。
+
+## Disclaimer
+
+小米、米家及相关名称和商标归其权利人所有。本项目是独立的社区硬件设计，与小米公司无隶属、授权或背书关系。

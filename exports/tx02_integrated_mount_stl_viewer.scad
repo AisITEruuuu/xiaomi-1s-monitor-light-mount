@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
 // Viewer-only wrapper for the exported printable STL.
 // Open this file in OpenSCAD and press F5 (Preview) or F6 (Render).
 // The imported STL is the actual print geometry; this wrapper does not modify it.

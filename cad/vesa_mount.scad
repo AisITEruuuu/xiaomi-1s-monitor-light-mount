@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
 // Xiaomi 1S VESA monitor-light adapter
 // Units: millimeters
 // The original Xiaomi magnetic/power base must stay assembled.

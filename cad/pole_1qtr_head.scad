@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
 // Xiaomi 1S pole-mount head
 // Units: millimeters
 // Use with a locking 1/4-inch friction arm, not a soft unloaded ball head.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
 // TX02 / Xiaomi 1S monitor-light one-piece VESA adapter
 // Units: millimeters
 // This is the printable counterpart of docs/tx02-vesa-cradle-r2.html.
