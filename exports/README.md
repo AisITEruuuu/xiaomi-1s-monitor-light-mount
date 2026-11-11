@@ -5,18 +5,18 @@ Generated from `cad/tx02_integrated_mount.scad` with OpenSCAD 2026.10.11.
 ## Files
 
 - `tx02_integrated_mount.stl` - complete one-piece VESA adapter.
-- `tx02_fit_test.stl` - 63 x 36 x 14 mm clamp-pad coupon with the 55 mm guide gap.
+- `tx02_fit_test.stl` - 63 x 30 x 14 mm clamp-pad coupon with the 55 mm guide gap.
 - `tx02_integrated_mount_preview.png` - quick OpenSCAD preview.
 - `tx02_fit_test_preview.png` - quick OpenSCAD preview of the fit coupon.
 - `tx02_integrated_mount_summary.json` - exported geometry summary.
 
 ## Verified geometry
 
-- Bounding box: `120.0 x 173.5 x 36.0 mm`.
+- Bounding box: `120.0 x 173.5 x 30.0 mm`.
 - VESA plate: `120 x 120 x 6 mm`.
 - VESA patterns: 75 mm and 100 mm, `Ø4.5 mm` through holes.
 - OpenSCAD result: manifold, `NoError`, 2,156 facets.
-- STL volume: about `205.3 cm³`.
+- STL volume: about `192.25 cm³`.
 
 ## Print order
 

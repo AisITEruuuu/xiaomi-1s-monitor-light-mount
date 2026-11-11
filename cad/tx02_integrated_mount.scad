@@ -26,7 +26,7 @@ vesa_countersink_depth = 2.0;
 
 support_width = 63;
 clamp_pad_height = 14;
-clamp_pad_depth = 36;
+clamp_pad_depth = 30;
 clamp_pad_center_z = 34;
 clamp_pad_top_y = 101.5;
 
