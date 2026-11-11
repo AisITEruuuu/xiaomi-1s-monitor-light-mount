@@ -1,0 +1,7 @@
+.DS_Store
+*.stl
+*.3mf
+*.gcode
+node_modules/
+output/
+work/
