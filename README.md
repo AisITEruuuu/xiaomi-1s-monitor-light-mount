@@ -87,6 +87,22 @@ make check
 
 交互 3D 装配图：[docs/tx02-vesa-cradle-r2.html](docs/tx02-vesa-cradle-r2.html)
 
+### Opening the Model in OpenSCAD
+
+OpenSCAD 不能像普通 CAD 软件那样直接打开 STL 作为可编辑设计文件。直接在 OpenSCAD 中打开 STL 会解析失败或显示空场景。
+
+可使用以下任一方式：
+
+1. 打开 [cad/tx02_integrated_mount.scad](cad/tx02_integrated_mount.scad)，然后按 `F5` 预览或 `F6` 渲染。
+2. 打开 [exports/tx02_integrated_mount_stl_viewer.scad](exports/tx02_integrated_mount_stl_viewer.scad)。`tx02_integrated_mount.stl` 必须与查看器位于同一目录。
+3. 新建 `.scad` 文件并导入 STL：
+
+```scad
+import("tx02_integrated_mount.stl", convexity=10);
+```
+
+如果模型已加载但界面中看不到，按 `Shift + Command + V` 执行 View All。STL 文件更适合用切片软件或独立 STL 查看器打开。
+
 ## Printing
 
 - 试片建议使用 PETG，便于低成本验证装配尺寸。
